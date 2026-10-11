@@ -17,7 +17,7 @@ python main.py
 
 | 역할 | 이름 | GitHub ID | 담당 |
 |---|---|---|---|
-| A | | | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
+| A | 손세영| seeyeongson| 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
 | B | | | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
 | D | Fazeli Shadi | shadifazeli | `games/rps.py` (가위바위보) |
