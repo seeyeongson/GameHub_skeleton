@@ -19,7 +19,7 @@ python main.py
 |---|---|---|---|
 | A | | | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
 | B | 이주민 | villager168 | `games/hangman.py` (행맨) |
-| C | | | `games/baseball.py` (숫자 야구) |
+| C | 한예성 | han1222 |`games/baseball.py` (숫자 야구) |
 | D | Fazeli Shadi | shadifazeli | `games/rps.py` (가위바위보) |
 | E | | | `games/tictactoe.py` (틱택토) |
 
@@ -28,7 +28,7 @@ python main.py
 | 게임 | 설명 | 상태 |
 |---|---|---|
 | 행맨 | | 영어 단어를 알아맞히는 게임 | | 구현 완료 |
-| 숫자 야구 | | 🚧 |
+| 숫자 야구 | 3가지 숫자를 알아맞히는 게임 | O |
 | 가위바위보 | | 🚧 |
 | 틱택토 | | 🚧 |
 
