@@ -21,7 +21,7 @@ python main.py
 | B | | | `games/hangman.py` (행맨) |
 | C | | | `games/baseball.py` (숫자 야구) |
 | D | Fazeli Shadi | shadifazeli | `games/rps.py` (가위바위보) |
-| E | | | `games/tictactoe.py` (틱택토) |
+| E | 손세영| seeyeongson | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
 
