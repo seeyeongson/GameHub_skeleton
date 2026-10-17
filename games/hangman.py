@@ -1,4 +1,3 @@
-
 """행맨 게임."""
 
 import random
@@ -20,10 +19,7 @@ MAX_MISTAKES = 6
 
 def mask_word(word: str, guessed: set[str]) -> str:
     """맞힌 글자만 보여 주고 나머지는 밑줄로 표시한다."""
-    return "".join(
-        char if char in guessed else "_"
-        for char in word
-    )
+    return "".join(char if char in guessed else "_" for char in word)
 
 
 def is_solved(word: str, guessed: set[str]) -> bool:
@@ -42,16 +38,10 @@ def play() -> None:
         guessed: set[str] = set()
         wrong_guesses: set[str] = set()
 
-        while (
-            len(wrong_guesses) < MAX_MISTAKES
-            and not is_solved(word, guessed)
-        ):
+        while len(wrong_guesses) < MAX_MISTAKES and not is_solved(word, guessed):
             print(f"\n단어: {mask_word(word, guessed)}")
             print(f"틀린 글자: {', '.join(sorted(wrong_guesses)) or '없음'}")
-            print(
-                f"남은 기회: "
-                f"{MAX_MISTAKES - len(wrong_guesses)}회"
-            )
+            print(f"남은 기회: " f"{MAX_MISTAKES - len(wrong_guesses)}회")
 
             guess = input("알파벳 한 글자를 입력하세요: ").strip().lower()
 
