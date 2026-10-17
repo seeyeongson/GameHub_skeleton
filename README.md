@@ -17,18 +17,18 @@ python main.py
 
 | 역할 | 이름 | GitHub ID | 담당 |
 |---|---|---|---|
-| A | 손세영 | seeyeongson | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
-| B | | | `games/hangman.py` (행맨) |
-| C | | | `games/baseball.py` (숫자 야구) |
+| A | | | 팀장 · `main.py`, `utils.py`, README, 병합 관리 |
+| B | 이주민 | villager168 | `games/hangman.py` (행맨) |
+| C | 한예성 | han1222 |`games/baseball.py` (숫자 야구) |
 | D | Fazeli Shadi | shadifazeli | `games/rps.py` (가위바위보) |
-| E | 손세영| seeyeongson | `games/tictactoe.py` (틱택토) |
+| E | | | `games/tictactoe.py` (틱택토) |
 
 ## 게임 목록
 
 | 게임 | 설명 | 상태 |
 |---|---|---|
-| 행맨 | | 🚧 |
-| 숫자 야구 | | 🚧 |
+| 행맨 | | 영어 단어를 알아맞히는 게임 | | 구현 완료 |
+| 숫자 야구 | 3가지 숫자를 알아맞히는 게임 | O |
 | 가위바위보 | | 🚧 |
 | 틱택토 | | 🚧 |
 
@@ -39,4 +39,3 @@ python main.py
 - 커밋 메시지: `feat:` `fix:` `test:` `docs:` `chore:` 로 시작 (예: `feat: 행맨 글자 마스킹 함수 추가`)
 - PR은 **다른 팀원 1명 이상의 승인** 후 병합합니다.
 - 비밀번호·토큰·`.env`는 절대 커밋하지 않습니다.
-
